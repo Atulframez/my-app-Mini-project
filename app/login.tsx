@@ -29,7 +29,7 @@ const Login = () => {
          marginBottom: 10,
          borderRadius: 10 
          }}
-         onChangeText={(e) => console.log(e)}>   # This is how to get the storevalue form the text input.
+         onChangeText={(e) => console.log(e)}>
          </TextInput>
     <TextInput 
     placeholder="Enter your password" style={{ 
