@@ -1,12 +1,11 @@
+import MyButton from "@/app-example/components/MyButton";
 import { Link } from "expo-router";
 import { Text, View  } from "react-native";
 
 export default function Index() {
   return (
-    <View>
-      <Text>
-        Welcome to the Mini-Project
-      </Text>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <MyButton/>
     </View>
   );
 }
