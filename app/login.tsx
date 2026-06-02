@@ -5,6 +5,19 @@ import { useRouter } from 'expo-router';
 import { TextInput } from 'react-native';
 
 const Login = () => {
+    const
+
+
+
+
+
+
+
+
+
+
+
+
     const router = useRouter();
     const onLogin = () => {
         router.navigate("/signup");
